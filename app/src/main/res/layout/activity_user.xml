@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_activity_background"
+    tools:context="com.example.mainActivity.UserActivity">
+
+    <FrameLayout
+        android:layout_width="365dp"
+        android:layout_height="641dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="206dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_marginTop="100dp"
+            android:background="@android:color/darker_gray"
+            android:layout_width="362dp"
+            android:layout_height="211dp">
+
+            <EditText
+
+                android:id="@+id/editTextUserNumberPhone"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="120dp"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="NumberPhone" />
+
+            <EditText
+                android:id="@+id/editTextUserSurname"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="70dp"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="SurName" />
+
+            <EditText
+                android:id="@+id/editTextUserName"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="Name" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textViewSurname"
+            android:layout_width="121dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="190dp"
+            android:text="Surname:" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="113dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="140dp"
+            android:text="Name:" />
+
+        <TextView
+            android:id="@+id/textViewNumberPhone"
+            android:layout_width="118dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="240dp"
+            android:text="NumberPhone:" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

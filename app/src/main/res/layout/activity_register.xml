@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_activity_background"
+    android:layout_height="match_parent"
+    tools:context="com.example.mainActivity.RegisterActivity"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="685dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="65dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="298dp"
+            android:layout_marginBottom="53dp"
+            android:background="@drawable/button_back"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button_auth"
+            android:layout_width="146dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginEnd="153dp"
+            android:layout_marginBottom="188dp"
+            android:background="@drawable/button_registration"
+            android:text="Authorization"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.48" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="-660dp"
+            android:background="@drawable/edit_text_number"
+            android:ems="12"
+            android:hint="Name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/editTextSurname"
+            android:layout_width="252dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edit_text_number"
+            android:ems="12"
+            android:hint="Surname"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColorHint="@color/gray" />
+
+
+        <EditText
+            android:id="@+id/editTextNumberPhone"
+            android:layout_width="252dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/edit_text_number"
+            android:ems="12"
+            android:hint="NumberPhone"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="252dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edit_text_number"
+            android:ems="12"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColorHint="@color/gray" />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
